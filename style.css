@@ -2,3 +2,15 @@ h2 {
 	color: black;
 	background-color: aqua;
 }
+a:link {
+	color: blue;
+}
+a:hover {
+	color: white;
+}
+a:visited {
+	color: black;
+}
+a:active {
+	color: yellow;
+}
