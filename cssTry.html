@@ -7,6 +7,18 @@
 		<title>Document</title>
 		<link rel="stylesheet" href="style.css" />
 		<style>
+			table th,
+			td {
+				border: 1px solid white;
+				border-collapse: collapse;
+				background-color: aqua;
+				border-radius: 10px;
+				padding: 10px;
+				border-spacing: 10px;
+			}
+			tr:hover {
+				background-color: black;
+			}
 			body {
 				background-color: antiquewhite;
 				color: blue;
@@ -20,5 +32,16 @@
 		<!-- Inline Css-->
 		<h2>External</h2>
 		<h1 style="color: blue">Inline CSS</h1>
+
+		<table>
+			<tr>
+				<th>Name</th>
+				<th>position</th>
+			</tr>
+			<tr>
+				<td>Nithin</td>
+				<td>Software Dev</td>
+			</tr>
+		</table>
 	</body>
 </html>
