@@ -1,3 +1,22 @@
+table th,
+td {
+	border: 1px solid white;
+	border-collapse: collapse;
+	background-color: aqua;
+	border-radius: 10px;
+	padding: 10px;
+	border-spacing: 10px;
+}
+tr:hover {
+	background-color: black;
+}
+body {
+	background-color: antiquewhite;
+	color: blue;
+}
+p {
+	color: black;
+}
 h2 {
 	color: black;
 	background-color: aqua;
@@ -13,4 +32,20 @@ a:visited {
 }
 a:active {
 	color: yellow;
+}
+p.one {
+	border-style: dashed;
+	border-width: 2px;
+	border-color: green;
+}
+p.two {
+	border-width: 2px;
+	border-top-style: double;
+	border-bottom-style: groove;
+	border-left-style: groove;
+	border-right-style: hidden;
+}
+p.short {
+	border: 5px dotted orange;
+	border-radius: 50%;
 }
