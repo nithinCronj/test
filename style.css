@@ -17,10 +17,7 @@ body {
 p {
 	color: black;
 }
-h2 {
-	color: black;
-	background-color: aqua;
-}
+
 a:link {
 	color: blue;
 }
@@ -64,4 +61,17 @@ div {
 	outline-width: 15px;
 	outline-color: aqua;
 	outline-offset: 20px;
+}
+h2 {
+	color: black;
+	background-color: aqua;
+	text-transform: uppercase;
+	text-decoration: underline;
+	letter-spacing: 52px;
+	word-spacing: 6px;
+	white-space: pre-line;
+	text-shadow: 2px 6px white;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+		sans-serif;
+	font-style: ;
 }
