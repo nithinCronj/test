@@ -1,9 +1,9 @@
 button {
+	background-color: #fab758;
 	border: 0ch;
-	background-color: orange;
 	color: white;
 	border-radius: 20px;
-	padding: 10px;
+	padding: 15px;
 }
 #sec2,
 #sec4,
@@ -12,26 +12,29 @@ button {
 	text-align: left;
 }
 #sec3,
-#sec7 {
+#sec7,
+#sec8 {
 	text-align: center;
 }
 * {
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
 		Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif, Courier,
 		monospace;
-	background-color: whitesmoke;
+	background-color: #fff9f1;
 }
 #sec3table {
-	margin-left: auto;
-	margin-right: auto;
-	border: 20px solid whitesmoke;
+	height: 200px;
+	width: 150px;
+	margin-left: 20px;
+	margin-right: 50px;
+	border: 20px solid #fff9f1;
 	background-color: white;
-	padding: 10px;
+	padding: 50px;
 }
 #sec5table {
 	text-align: left;
 	background-color: white;
-	border: 2px solid whitesmoke;
+	border: 2px solid #fff9f1;
 	padding: 5px;
 }
 .collapsible {
@@ -50,9 +53,12 @@ button {
 	padding: 0 18px;
 	display: none;
 	overflow: hidden;
-	background-color: #f1f1f1;
+	background-color: ##fff9f1;
 }
 #sec8images {
 	height: 100px;
 	border-radius: 100%;
+}
+#sec8 {
+	text-align: center;
 }
