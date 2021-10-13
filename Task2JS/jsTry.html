@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<body>
+		<h2>My First Web Page</h2>
+		<p>My first paragraph.</p>
+
+		<p id="demo">
+			Never call document.write after the document has finished loading.
+			It will overwrite the whole document.
+		</p>
+		<button onclick="this.innerHTML=Date()">Time</button><br />
+		<button onclick="displayDate()">The time is?</button>
+
+		<script>
+			document.getElementById("demo").innerHTML = 6;
+			document.write(5 + 6);
+			var person = "nithin";
+			document.write(person);
+		</script>
+	</body>
+</html>
